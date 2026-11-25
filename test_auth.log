@@ -1,0 +1,19 @@
+Nov 25 08:12:01 ubuntu-srv CRON[1021]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 25 08:15:44 ubuntu-srv sshd[1104]: Accepted publickey for deploy from 192.168.1.50 port 51422 ssh2: ED25519 SHA256:xK9pL2mQ8vR4tY1wZ
+Nov 25 08:15:44 ubuntu-srv sshd[1104]: pam_unix(sshd:session): session opened for user deploy(uid=1001) by (uid=0)
+Nov 25 09:02:11 ubuntu-srv sshd[1189]: Invalid user admin from 89.248.165.10 port 43112
+Nov 25 09:02:13 ubuntu-srv sshd[1189]: Failed password for invalid user admin from 185.220.101.45 port 43112 ssh2
+Nov 25 09:02:15 ubuntu-srv sshd[1189]: Failed password for invalid user admin from 185.220.101.45 port 43114 ssh2
+Nov 25 09:02:18 ubuntu-srv sshd[1192]: Failed password for root from 185.220.101.45 port 43120 ssh2
+Nov 25 09:05:40 ubuntu-srv sshd[1205]: Connection closed by authenticating user root 91.200.12.88 port 39102 [preauth]
+
+Nov 25 09:14:02 ubuntu-srv sshd[1230]: Failed password for root from 45.155.205.92 port 58210 ssh2
+Nov 25 09:14:05 ubuntu-srv sshd[1230]: Failed password for root from 45.155.205.92 port 58214 ssh2
+Nov 25 09:20:19 ubuntu-srv sshd[1245]: Accepted password for backup from 10.0.0.15 port 44120 ssh2
+Nov 25 09:31:50 ubuntu-srv sshd[1260]: Failed password for invalid user from_admin from 198.51.100.23 port 55110 ssh2
+Nov 25 09:35:00 ubuntu-srv sshd[1271]: Failed password
+Nov 25 09:36:12 ubuntu-srv sshd[1275]: Failed password for root from 
+Nov 25 09:40:08 ubuntu-srv sshd[1288]: Failed password for invalid user test from 172.16.0.99
+Nov 25 09:45:33 ubuntu-srv sshd[1301]: Failed password for root from 2a02:4780:1::42 port 60112 ssh2
+Nov 25 09:50:11 ubuntu-srv sshd[1315]: Failed password for invalid user ubuntu from 185.220.101.45 port 49810 ssh2
+Nov 25 10:01:00 ubuntu-srv sudo:   deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt update
