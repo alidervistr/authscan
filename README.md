@@ -14,6 +14,7 @@ Compile with any C++17 compatible compiler:
 ```bash
 g++ -std=c++17 main.cpp -o authscan
 Run against the included sample log:
+```
 
 # Linux / macOS
 ./authscan
@@ -21,7 +22,7 @@ Run against the included sample log:
 # Windows (PowerShell)
 .\authscan.exe
 
-Roadmap:
+## Roadmap:
 
 [x] v0.1 Extract IPv4 and IPv6 addresses from failed SSH login lines
 
